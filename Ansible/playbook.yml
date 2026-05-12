@@ -5,7 +5,10 @@
     - name: Copy WAR file to Tomcat
       copy:
         src: "/var/snap/jenkins/5022/workspace/MavenAnsibleWebApp/target/MavenAnsibleWebApp.war"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d67029 (Fixed Jenkins workspace path)
         dest: "/opt/tomcat/webapps/MavenAnsibleWebApp.war"
         remote_src: no
 
